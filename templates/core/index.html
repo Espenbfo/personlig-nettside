@@ -1,1 +1,21 @@
 {% extends "base.html" %}
+
+{% load static %}
+{% block extrahead %}
+<link rel="stylesheet" href="{% static "css/index.css" %}">
+{% endblock %}
+
+{% block left-area-upper %}
+<div class="image-container">
+    <img src="{% static "img/espen.jpg" %}">
+</div>
+
+{% endblock %}
+
+{% block right-area-upper %}
+<div class="image-container">
+    <img src="{% static "img/espen_flip.jpg" %}">
+</div>
+
+{% endblock %}
+
