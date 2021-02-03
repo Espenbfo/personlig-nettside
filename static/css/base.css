@@ -16,7 +16,32 @@ body {
     ". footer footer footer ."
 }
 
+@media (max-width: 1000px) {
+    body {
+        min-width: 100%;
+        max-width: unset;
+        height: unset;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 40px 250px 40px 100px 40px 300px 1fr;
+        grid-template-areas:
+        ". ."
+        "header header"
+        ". ."
+        "middle middle"
+        ". ."
+        "left-area-upper left-area-upper"
+        "left-area-lower right-area-lower"
+        "footer footer";
+    }
 
+    #header {
+        font-size: 5rem!important;
+    }
+    #right-area-upper {
+        display: none;
+    }
+
+}
 #header {
     grid-area: header;
 
