@@ -1,0 +1,62 @@
+body {
+    background-color: #fdfdfd;
+    height:100%;
+    min-width: 1000px;
+    max-width: 2000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr 4fr 6fr 6fr 4fr 3fr;
+    grid-template-rows: 100px 50px 100px 600px 50px;
+    grid-template-areas:
+    ". header header header header ."
+    ". . . . . ."
+    ". left-area main main right-area ."
+    ". left-area main main right-area ."
+    ". footer footer footer footer ."
+}
+
+
+#header {
+    grid-area: header;
+
+    color: #685252;
+    font-size: 4vw;
+    text-align: center;
+}
+
+#main {
+    grid-area: main;
+    background-color: #fdfdfd;
+    text-align: center;
+}
+
+#left-area-upper {
+    grid-area: left-area-upper;
+    background-color: #fdfdfd;
+    text-align: center;
+}
+#left-area-lower {
+    grid-area: left-area-lower;
+    background-color: #fdfdfd;
+    text-align: center;
+}
+
+#right-area-upper {
+    font-size: 1.5em;
+    grid-area: right-area-upper;
+    background-color: #fdfdfd;
+    text-align: center;
+}
+#right-area-lower {
+    font-size: 1.5em;
+    grid-area: right-area-lower;
+    background-color: #fdfdfd;
+    text-align: center;
+}
+
+#footer {
+    grid-area: footer;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+}

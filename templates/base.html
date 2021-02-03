@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Recipe</title>
+        <base href=".." />
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        {% block extrahead %}{% endblock %}
+    </head>
+    <body>
+        <div id="header">
+            {% block header %}
+                Espen Boman Fosseide
+            {% endblock %}
+        </div>
+        <div id="main">
+            {% block main %}
+            {% endblock %}
+        </div>
+        <div id="left-area-upper">
+            {% block left-area-upper %}
+            {% endblock %}
+        </div>
+        <div id="left-area-lower">
+            {% block left-area-lower %}
+            {% endblock %}
+        </div>
+        <div id="right-area-upper">
+            {% block right-area-upper %}
+            {% endblock %}
+        </div>
+        <div id="right-area-lower">
+            {% block right-area-lower %}
+            {% endblock %}
+        </div>
+
+
+    </body>
+</html>
