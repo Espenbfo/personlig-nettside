@@ -27,7 +27,7 @@ SECRET_KEY = '*qk!)1w^qnl8qp4+g245bwe6camg-qaf_u0kkyupoay95990k*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["espen-boman-fosseide.herokuapp.com", "fosseide.com"]
 
 
 # Application definition
