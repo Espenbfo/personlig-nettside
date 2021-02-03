@@ -1,0 +1,1 @@
+web: gunicorn personlig.wsgi --log-file -
