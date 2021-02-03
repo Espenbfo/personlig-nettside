@@ -22,11 +22,21 @@
     width: 200px;
     height: 100%;
     text-decoration: none;
-    color: black;
+    color: #473d3d;
     background-color: #eeeeee;
     margin-left: 10px;
     margin-right: 10px;
     line-height: 100px;
     text-align: center;
     font-size: 3em;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.misc-flexbox .item:hover {
+    background-color: #fcfcfc;
+}
+
+.misc-flexbox .item:active {
+    background-color: #bababa;
 }
